@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/script.js" defer></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+</head>
+
+<body class="body">
+    <main class="container">
+        <form class="form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Kalkulator walutowy</legend>
+                <p class="form__question">
+                    <label>Kwota (którą chcesz wymienić): <input placeholder="Wpisz kwotę w zł" name="howMuch" class="form__field js-howMuch"
+                            type="number" step="0.01"></label>
+                </p>
+                <p class="form__question">
+                    <label>Waluta (na jaką chcesz zamienić):
+                        <select name="currency" class="form__field js-currency" required>
+                            <option value="4.3605">EUR (Unia Europejska)</option>
+                            <option value="4.0718">USD (USA)</option>
+                            <option value="5.1733">GBP (W.Brytania)</option>
+                            <option value="4.5714">CHF (Szwajcaria)</option>
+                        </select>
+                    </label>
+                </p>
+            </fieldset>
+
+        </form>
+        <p class="container__paragraph">
+            <strong class="js-changed"></strong>
+        </p>
+    </main>
+</body>
+
+</html>
