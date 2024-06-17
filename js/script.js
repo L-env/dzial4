@@ -1,5 +1,3 @@
-console.log("Witam wszystkie osoby które tutaj zaglądają!!!");
-
 let currencyElement = document.querySelector(".js-currency");
 let howMuchElement = document.querySelector(".js-howMuch");
 let changed = document.querySelector(".js-changed");
