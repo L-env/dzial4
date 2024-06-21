@@ -1,4 +1,4 @@
-# Strona obliczająca wymianę walut
+# Kalkulator walutowy
 
 Możemy dzięki niej obliczyć ile będziemy mieć pieniędzy po wymianie.
 
