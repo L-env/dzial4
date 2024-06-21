@@ -11,4 +11,7 @@ html{
     background-color: antiquewhite;
     color: rgb(56, 46, 46);
     font-size: 18px;
+    background-image: url("../images/01.jpg");
+    background-repeat: repeat;
+
 }
