@@ -13,5 +13,7 @@ html{
     font-size: 18px;
     background-image: url("../images/01.jpg");
     background-repeat: repeat;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
